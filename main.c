@@ -81,7 +81,6 @@ static void lexer_init(struct lexer *l, char *buffer, unsigned int buffer_len) {
     lexer_read_char(l);
 }
 
-
 int main() {
     char *buffer = NULL;
     ds_io_read_file(NULL, &buffer);
