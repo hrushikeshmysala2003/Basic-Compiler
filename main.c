@@ -5,6 +5,6 @@
 int main() {
     char *buffer = NULL;
     ds_io_read_file(NULL, &buffer);
-
+    printf("%s\n", "Hello World");
     printf("%s\n", buffer);
 }
